@@ -1,0 +1,20 @@
+{
+  "name": "incident_form",
+  "description": "testing my skill",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "filter",
+    "form"
+  ],
+  "authors": [
+    "Edyard Bastin"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "~1.4.9"
+  }
+}
