@@ -1,0 +1,27 @@
+{
+  "name": "incident_form",
+  "version": "1.0.0",
+  "description": "Incident form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furyFTW/incident_form.git"
+  },
+  "author": "Edyard Bastin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furyFTW/incident_form/issues"
+  },
+  "homepage": "https://github.com/furyFTW/incident_form#readme",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.3",
+    "gulp-minify-html": "^1.0.5",
+    "gulp-uglify": "^1.5.1"
+  }
+}
