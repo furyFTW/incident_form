@@ -7,10 +7,32 @@
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body ng-app="form">
+<div class="container">
+    <nav class="navbar navbar-default" class="{{active}}" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" ng-click="active=''">Incident Form</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li ng-class="{'active': active === 'general'}"><a href="#general" ng-click="active='general'">General Information</a></li>
+                <li ng-class="{'active': active === 'corrective'}"><a href="#corrective" ng-click="active='corrective'">Corrective Actions</a></li>
+                <li ng-class="{'active': active === 'review-submit'}"><a href="#review-submit" ng-click="active='review-submit'">Review and Submit</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div ng-view></div>
+    </div>
+</div>
 
-
-<script src="app.js"></script>
 <script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="corrective/corective.controller.js"></script>
+<script src="general/general.controller.js"></script>
+<script src="review-submit/rs.controller.js"></script>
 </body>
 </html>
+
+
