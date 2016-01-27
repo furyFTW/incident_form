@@ -1,8 +1,8 @@
 <h1>Incident form</h1>
-Client-side HTML/ JavaScript application that will consist of three tabs :
-1.General Information
-2.Corrective Actions
-3.REVIEW and SUBMIT
+Client-side HTML/ JavaScript application that will consist of three tabs :<br>
+1.General Information<br>
+2.Corrective Actions<br>
+3.REVIEW and SUBMIT<br>
 
 “General Information” tab  contain a list of fields with different types/validation rules/specific behaviors (Appendix A).
 
